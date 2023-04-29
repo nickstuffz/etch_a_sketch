@@ -1,7 +1,6 @@
 html {
     font-family: sans-serif;
-  }
+}
 #grid-container {
     display: flex;
-    width: 1000px;
 }
