@@ -1,6 +1,19 @@
 html {
     font-family: sans-serif;
 }
+
 #grid-container {
     display: flex;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 1000px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
 }
