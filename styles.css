@@ -2,15 +2,29 @@ html {
     font-family: sans-serif;
 }
 
-#grid-container {
-    display: flex;
-}
-
 #header {
     display: flex;
     align-items: center;
     gap: 40px;
-    width: 1000px;
+}
+
+#grid-container {
+    display: flex;
+    width: 900px;
+    height: 900px;
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+.square {
+    flex: 1;
+
 }
 
 button {

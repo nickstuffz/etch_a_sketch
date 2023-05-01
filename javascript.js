@@ -12,8 +12,8 @@ function gridCreator(num) {
         for (j=0; j<num; j++) {
             const square = document.createElement('div');
             square.style.border = '1px solid black';
-            square.style.width = '40px';
-            square.style.height = '40px';
+            // square.style.width = '40px';
+            // square.style.height = '40px';
             square.setAttribute('class', 'square');
             column.appendChild(square);
         };
