@@ -1,5 +1,6 @@
 html {
     font-family: sans-serif;
+    background-color: beige;
 }
 
 #header {
@@ -19,12 +20,10 @@ html {
     display: flex;
     flex-direction: column;
     flex: 1;
-
 }
 
 .square {
     flex: 1;
-
 }
 
 button {
